@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Streamlit secrets - never commit
+.streamlit/secrets.toml
+
+# Generated application data (recreated on first run)
+fleet.db
+fleet.db-shm
+fleet.db-wal
+auth.db
+auth.db-shm
+auth.db-wal
+artifacts/
+data/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log

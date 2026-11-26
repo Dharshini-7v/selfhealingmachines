@@ -1,0 +1,15 @@
+# Streamlit theme - keeps native widgets (tabs, inputs, tables, metrics, alerts)
+# consistent with the dark industrial surfaces defined in src/config.py PALETTE.
+[theme]
+base = "dark"
+primaryColor = "#3b82f6"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#161b27"
+textColor = "#e6e9ef"
+borderColor = "#2a3243"
+font = "sans serif"
+
+[theme.sidebar]
+backgroundColor = "#141926"
+secondaryBackgroundColor = "#1c2333"
+borderColor = "#2a3243"
